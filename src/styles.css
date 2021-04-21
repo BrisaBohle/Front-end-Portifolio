@@ -1,0 +1,13 @@
+h1 {
+  display: block;
+}
+.heading-photo {
+  display: block;
+  width: 100%;
+}
+.hero-picture {
+  background-image: url(/src/images/heading-photo.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: auto;
+}
