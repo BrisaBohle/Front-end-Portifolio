@@ -1,13 +1,30 @@
-h1 {
-  display: block;
+body {
+  font-family: "ABeeZee", sans-serif;
+  font-family: "Bellefair", serif;
+  font-family: "Belleza", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
 }
 .heading-photo {
   display: block;
   width: 100%;
 }
 .hero-picture {
-  background-image: url(/src/images/heading-photo.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0)),
+    url(/src/images/heading-photo.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  height: auto;
+  height: 600px;
+}
+
+.h1-heading {
+  display: block;
+  text-align: center;
+  font-size: 96px;
+  margin-top: 430px;
+  font-family: "Bellefair", serif;
+  color: white;
 }
