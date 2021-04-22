@@ -1,5 +1,5 @@
 body {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 :root {
   --primary-color: #ec3369;
@@ -11,8 +11,7 @@ body {
 }
 
 h1,
-h2,
-p {
+h2 {
   text-align: center;
   padding: 10px;
   margin: 20px;
@@ -26,16 +25,16 @@ h2 {
 h3 {
   font-family: var(--third-font);
 }
-.contact-list {
-  list-style: none;
-  margin-bottom: 60px;
-}
 p {
   font-family: var(--third-font);
 }
 small {
   font-size: 25px;
   font-family: var(--secondary-font);
+}
+.contact-list {
+  list-style: none;
+  margin-bottom: 60px;
 }
 .contact-icon {
   font-size: 25px;
@@ -49,21 +48,22 @@ small {
 .hero-picture {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0)),
     url(/src/images/heading-photo.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
+  padding: 210px;
   background-repeat: no-repeat;
 }
 
 .h1-heading {
-  display: block;
+  width: 100%;
   font-size: 96px;
-  margin-top: 400px;
   color: white;
+  position: relative;
+  top: -200px;
 }
 .primary-button {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
-  margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -75,7 +75,7 @@ small {
   background: white;
   box-shadow: var(--box-shadow);
   color: var(--primary-color);
-  margin: 20px;
+  margin-top: 20px;
   border: 1px solid var(--primary-color);
   border-radius: 4px;
   padding: 20px 15px;
@@ -89,6 +89,13 @@ small {
 }
 .picture-app {
   max-height: 330px;
-  padding: 20px 200px;
+  padding: 20px 100px;
   background: var(--secondary-color);
+}
+.picture-about {
+  max-height: 550px;
+}
+.logo-icon {
+  max-height: 35px;
+  padding: 0;
 }
