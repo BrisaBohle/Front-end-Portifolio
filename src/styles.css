@@ -3,11 +3,19 @@ body {
   font-family: "Bellefair", serif;
   font-family: "Belleza", sans-serif;
 }
+:root {
+  --primary-color: #ec3369;
+  --secondary-color: #c4c4c4;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
 
-h2 {
+h1,
+h2,
+p {
   text-align: center;
   padding: 10px;
 }
+
 .heading-photo {
   display: block;
   width: 100%;
@@ -17,14 +25,28 @@ h2 {
     url(/src/images/heading-photo.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 600px;
 }
 
 .h1-heading {
   display: block;
-  text-align: center;
   font-size: 96px;
-  margin-top: 430px;
+  margin-top: 400px;
   font-family: "Bellefair", serif;
   color: white;
+}
+.secondary-button {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.secondary-button:hover {
+  color: rgb(223, 248, 227);
+}
+.weather-app {
+  max-width: 200px;
 }
