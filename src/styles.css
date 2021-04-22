@@ -1,12 +1,13 @@
 body {
-  font-family: "ABeeZee", sans-serif;
-  font-family: "Bellefair", serif;
-  font-family: "Belleza", sans-serif;
+  margin-bottom: 100px;
 }
 :root {
   --primary-color: #ec3369;
   --secondary-color: #c4c4c4;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-font: "Bellefair", serif;
+  --secondary-font: "Belleza", sans-serif;
+  --third-font: "ABeeZee", sans-serif;
 }
 
 h1,
@@ -14,8 +15,33 @@ h2,
 p {
   text-align: center;
   padding: 10px;
+  margin: 20px;
 }
-
+h1 {
+  font-family: var(--primary-font);
+}
+h2 {
+  font-family: var(--secondary-font);
+}
+h3 {
+  font-family: var(--third-font);
+}
+.contact-list {
+  list-style: none;
+  margin-bottom: 60px;
+}
+p {
+  font-family: var(--third-font);
+}
+small {
+  font-size: 25px;
+  font-family: var(--secondary-font);
+}
+.contact-icon {
+  font-size: 25px;
+  color: var(--primary-color);
+  margin: 0 20px;
+}
 .heading-photo {
   display: block;
   width: 100%;
@@ -31,22 +57,38 @@ p {
   display: block;
   font-size: 96px;
   margin-top: 400px;
-  font-family: "Bellefair", serif;
   color: white;
 }
-.secondary-button {
-  background: var(--primary-color);
+.primary-button {
+  background: var(--secondary-color);
   box-shadow: var(--box-shadow);
   color: white;
   margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
 }
-.secondary-button:hover {
+.primary-button:hover {
   color: rgb(223, 248, 227);
 }
-.weather-app {
-  max-width: 200px;
+.secondary-button {
+  background: white;
+  box-shadow: var(--box-shadow);
+  color: var(--primary-color);
+  margin: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+.secondary-button:hover {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border: 1px solid var(--primary-color);
+}
+.picture-app {
+  max-height: 330px;
+  padding: 20px 200px;
+  background: var(--secondary-color);
 }
