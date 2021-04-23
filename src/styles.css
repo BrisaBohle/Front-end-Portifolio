@@ -10,17 +10,14 @@ body {
   --third-font: "ABeeZee", sans-serif;
 }
 
-h1,
-h2 {
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
-}
 h1 {
+  text-align: center;
   font-family: var(--primary-font);
 }
 h2 {
   text-align: center;
+  padding: 10px;
+  margin: 10px;
   font-family: var(--secondary-font);
 }
 h3 {
@@ -56,17 +53,17 @@ img {
 .hero-picture {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0)),
     url(/src/images/heading-photo.jpg);
-  background-size: 100% 100%;
-  padding: 220px 0px;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
 }
 
 .h1-heading {
-  width: 100%;
+  padding: 15px;
   font-size: 96px;
   color: white;
-  position: relative;
-  top: -200px;
 }
 .primary-button {
   background: var(--primary-color);
@@ -120,16 +117,13 @@ img {
   max-width: 100%;
 }
 .contact-pic {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 @media (max-width: 960px) {
-  h1,
   h2 {
     padding: 0px;
     margin: 10px;
-  }
-  h2 {
     font-size: 20px;
   }
   span {
@@ -145,12 +139,10 @@ img {
     padding-inline-start: 0px;
   }
   .hero-picture {
-    padding: 50px;
+    height: 200px;
   }
   .h1-heading {
-    font-size: 20px;
-    position: relative;
-    top: -48px;
+    font-size: 30px;
   }
   .project-description {
     margin-top: 0px;
