@@ -20,6 +20,7 @@ h1 {
   font-family: var(--primary-font);
 }
 h2 {
+  text-align: center;
   font-family: var(--secondary-font);
 }
 h3 {
@@ -27,10 +28,15 @@ h3 {
 }
 p {
   font-family: var(--third-font);
+  line-height: 30px;
 }
 small {
   font-size: 25px;
   font-family: var(--secondary-font);
+}
+img {
+  display: block;
+  margin: 0 auto;
 }
 .contact-list {
   list-style: none;
@@ -49,7 +55,7 @@ small {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0)),
     url(/src/images/heading-photo.jpg);
   background-size: 100% 100%;
-  padding: 250px;
+  padding: 220px 0px;
   background-repeat: no-repeat;
 }
 
@@ -98,4 +104,23 @@ small {
 .logo-icon {
   max-height: 35px;
   padding: 0;
+}
+@media (max-width: 960px) {
+  h1,
+  h2 {
+    font-size: 20px;
+    padding: 0px;
+    margin: 10px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .hero-picture {
+    padding: 50px;
+  }
+  .h1-heading {
+    font-size: 20px;
+    position: relative;
+    top: -48px;
+  }
 }
