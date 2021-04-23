@@ -25,6 +25,7 @@ h2 {
 }
 h3 {
   font-family: var(--third-font);
+  font-size: 18px;
 }
 p {
   font-family: var(--third-font);
@@ -105,7 +106,8 @@ img {
   background: var(--secondary-color);
 }
 .picture-about {
-  max-height: 550px;
+  max-width: 75%;
+  height: auto;
 }
 .logo-icon {
   max-height: 35px;
@@ -117,16 +119,18 @@ img {
 .language-img img {
   max-width: 100%;
 }
+.contact-pic {
+  max-width: 100%;
+}
 
 @media (max-width: 960px) {
   h1,
   h2 {
     padding: 0px;
     margin: 10px;
-  } 
+  }
   h2 {
     font-size: 20px;
-    
   }
   span {
     font-size: 10px;
@@ -137,6 +141,7 @@ img {
     margin-bottom: 15px;
   }
   ul {
+    margin-top: 10px;
     padding-inline-start: 0px;
   }
   .hero-picture {
@@ -162,8 +167,11 @@ img {
   .language-img img {
     max-width: 90px;
   }
+
+  .contact-list {
+    margin-bottom: 15px;
   }
-.contact-list {
-    margin-bottom: 30px;
-}
+  .contact-pic {
+    max-width: 60%;
+  }
 }
