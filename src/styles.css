@@ -60,7 +60,7 @@ img {
   height: 600px;
 }
 .wrap-content {
-  margin: 50px 0px;
+  margin-top: 50px;
 }
 .h1-heading {
   padding: 15px;
@@ -104,10 +104,7 @@ img {
   padding: 20px 100px;
   background: var(--secondary-color);
 }
-.picture-about {
-  max-width: 75%;
-  height: auto;
-}
+
 .logo-icon {
   max-height: 35px;
   padding: 0;
