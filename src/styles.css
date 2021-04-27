@@ -3,7 +3,7 @@ body {
 }
 :root {
   --primary-color: #ec3369;
-  --secondary-color: #c4c4c4;
+  --secondary-color: #ec336914;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "Bellefair", serif;
   --secondary-font: "Belleza", sans-serif;
@@ -59,7 +59,9 @@ img {
   width: 100%;
   height: 600px;
 }
-
+.wrap-content {
+  margin: 50px 0px;
+}
 .h1-heading {
   padding: 15px;
   font-size: 96px;
