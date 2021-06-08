@@ -103,7 +103,7 @@ img {
   border: 1px solid var(--primary-color);
 }
 .picture-app {
-  max-height: 330px;
+  max-width: 400px;
   padding: 20px 100px;
   background: var(--secondary-color);
 }
