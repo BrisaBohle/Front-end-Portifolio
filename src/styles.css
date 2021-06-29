@@ -25,6 +25,9 @@ h2 {
 h2 a {
   color: black;
 }
+h2 a:hover {
+  color: #ec3369;
+}
 h3 {
   font-family: var(--third-font);
   font-size: 18px;
@@ -128,6 +131,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 @media (max-width: 960px) {
   h2 {
     padding: 0px;
@@ -157,11 +161,9 @@ img {
   .wrap-content {
     margin-top: 5px;
   }
-  .hero-picture {
-    height: 200px;
-  }
+
   .h1-heading {
-    font-size: 30px;
+    font-size: 70px;
   }
   .project-description {
     margin-top: 0px;
@@ -185,5 +187,13 @@ img {
   }
   .contact-pic {
     max-width: 60%;
+  }
+}
+@media (max-width: 560px) {
+  .hero-picture {
+    height: 400px;
+  }
+  .h1-heading {
+    font-size: 40px;
   }
 }
