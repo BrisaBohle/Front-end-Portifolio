@@ -15,7 +15,7 @@
   --cream:    #EDE7DB;
   --sand:     #C9B89A;
   --terracotta: #B56A46;
-  --charcoal: #1E1C1A;
+  --charcoal: #11100f;
   --mid:      #5A5450;
   --light:    #9E9690;
   --white:    #FDFAF6;
@@ -1146,7 +1146,7 @@ a.work-image-wrap:hover::after {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   display: flex;
   align-items: center;
   justify-content: center;
