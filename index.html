@@ -4,74 +4,58 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Brisa O. Silva — Architect & AEC Digital Workflow Specialist</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-
-  <!-- NAV -->
-  <nav id="nav">
-    <div class="nav-logo">B.O.S.</div>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#Experience">Experience</a></li>
-      <li><a href="#works">Works</a></li>
-      <li><a href="#academic">Academic</a></li>
-      <li><a href="#prototypes">Prototypes</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <button class="nav-toggle" aria-label="Toggle menu">
-      <span></span><span></span>
-    </button>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">B.O.S.</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#academic">Academic</a></li>
+        <li><a href="#prototypes">Prototypes</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle">Toggle menu</button>
+    </div>
   </nav>
 
-  <!-- HERO -->
-  <header id="hero">
-    <div class="hero-grid">
-      
-      <h1 class="hero-title">
-        <em>Brisa</em><br>
-        Oliveira<br>
-        e Silva
-      </h1>
-      <div class="hero-sub">
-        <p>Architect &amp; AEC<br>Digital Workflow Specialist<br>BIM · Sustainability · Automation</p>
-        <div class="hero-scroll-hint">Selected works ↓</div>
-      </div>
-    </div>
-    <div class="hero-line"></div>
-    <div class="hero-marquee" aria-hidden="true">
-      <span>Sustainable Architecture &nbsp;·&nbsp; Honeybee tools &nbsp;·&nbsp; Rhinoceros &nbsp;·&nbsp; LCA &nbsp;·&nbsp; Rhino.Inside &nbsp;·&nbsp; PyRevit &nbsp;·&nbsp; ShapeDiver &nbsp;·&nbsp; Revit &nbsp;·&nbsp; Lumion &nbsp;·&nbsp; Architect Urbanist &nbsp;·&nbsp;</span>
-      <span>NTNU &nbsp;·&nbsp; AEC - BIM &nbsp;·&nbsp; Grasshopper &nbsp;·&nbsp; OneCLick LCA &nbsp;·&nbsp; TEK17 &nbsp;·&nbsp; Archicad &nbsp;·&nbsp; ShapeDiver &nbsp;·&nbsp; Autodesk Cconstruction Cloud &nbsp;·&nbsp; Enscape &nbsp;·&nbsp; Belas Artes &nbsp;·&nbsp;</span>
+  <header class="hero">
+    <h1>Brisa Oliveira e Silva</h1>
+    <p>Architect & AEC<br>Digital Workflow Specialist<br>BIM · Sustainability · Automation</p>
+    <p class="subheading">Selected works ↓</p>
+    <div class="hero-skills">
+      <span>Sustainable Architecture · Honeybee tools · Rhinoceros · LCA · Rhino.Inside · PyRevit · ...</span>
+      <span>NTNU · AEC - BIM · Grasshopper · OneCLick LCA · TEK17 · Archicad · ShapeDiver · Autodesk...</span>
     </div>
   </header>
 
-  <!-- ABOUT -->
   <section id="about">
     <div class="section-label">About</div>
     <div class="about-grid">
       <div class="about-bio">
-        <p class="lead">Architect specializing in AEC digital workflows across BIM, sustainability, computational design, and digital tool evaluation.</p>
+        <p class="lead">I'm an architect with a Master's in Sustainability. But the real part of who I am: I'm curious and I notice patterns.</p>
           <p>I hold an M.Sc. in Sustainable Architecture from NTNU and a degree in Architecture and Urbanism from Brazil, giving me an international perspective that combines design sensibility with analytical and technical thinking.</p>
-          <p>My work focuses on the intersection between the built environment, technology, and user needs. I am driven by making complex systems more understandable and improving workflows through clear, practical, and visual communication.</p>
-          <p>I have contributed to 55+ architectural projects in Norway and spent four years in an internal innovation group (Industriell Verdikjede, later Pilarr) testing and evaluating configurators, BIM-data workflows, pyRevit prototypes,</p> 
-          <p>Autodesk Construction Cloud, and LCA tools — assessing honestly what would and wouldn't help the company.</p>
+          <p>My work focuses on the intersection between the built environment, technology, and user needs. I am especially drawn to problems where architectural domain knowledge, structured tool evaluation, and fast independent learning are directly useful.</p>
+          <p>I have contributed to 55+ architectural projects in Norway and spent four years in an internal innovation initiative at Mestergruppen Arkitekter, where I worked across BIM production, digital tool evaluation, workflow automation, parametric design prototyping, and AI-assisted workflow exploration.</p>
+          <p>Current focus: roles where I can apply architecture expertise to evaluate, prototype, and improve digital tools for the AEC sector. I'm learning Cowork and deepening my skills in Python and AI-assisted workflows.</p>
         </div>
       <div class="about-meta">
         <div class="meta-block">
           <div class="meta-label">Most Recent Role</div>
-          <div class="meta-value">Architect / BIM &amp; Digital Workflow Specialist<br><em>Mestergruppen Arkitekter AS</em><br>Sept 2021 – Jan 2026
-            
+          <div class="meta-value">
+            Architect / BIM & Digital Workflow Specialist<br>
+            <em>Mestergruppen Arkitekter AS</em>, Sept 2021 – Jan 2026
           </div>
         </div>
         <div class="meta-block">
           <div class="meta-label">Previous Experience</div>
           <div class="meta-value">
-            Architect (vikariat) — <em>Per Knudsen Arkitektkontor AS</em>, 2019–2020<br>
+            Architect — <em>Per Knudsen Arkitektkontor AS</em>, 2019–2020<br>
             Assistant Architect — <em>Biselli + Katchborian</em>, 2013–2014<br>
             Product Analyst — <em>Even</em>, 2012–2013
           </div>
@@ -79,490 +63,460 @@
         <div class="meta-block">
           <div class="meta-label">Education</div>
           <div class="meta-value">
-            M.Sc. Sustainable Architecture<br>
-            <em>NTNU, Norway</em> · 2018
-            <a href="files/certificates/ntnu-diploma.pdf" target="_blank" class="doc-link">View diploma ↗</a>
-            <br><br>
-            B.Arch Architecture &amp; Urbanism<br>
-            <em>Belas Artes, São Paulo</em> · 2014 (Scholarship)
-            <a href="files/certificates/belas-artes-diploma-1.jpg" target="_blank" class="doc-link">View diploma ↗</a>
+            M.Sc. Sustainable Architecture · 2018 <br>
+            <em><a href="files/certificates/ntnu-diploma.pdf" target="_blank">View diploma ↗</a></em>
+            <br>
+            <br>
+            B.Arch Architecture & Urbanism · 2014 <br>
+            <em><a href="files/certificates/belas-artes-diploma-1.jpg" target="_blank">View diploma ↗</a></em>
           </div>
         </div>
         <div class="meta-block">
-          <div class="meta-label">Citizenship &amp; Languages</div>
-          <div class="meta-value">Brazilian &amp; Norwegian<br>Portuguese · English · Norwegian</div>
+          <div class="meta-label">Citizenship & Languages</div>
+          <div class="meta-value">
+            Brazilian & Norwegian<br>
+            Portuguese · English · Norwegian
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Experience -->
   <section id="Experience">
     <div class="section-label">Professional Experience</div>
-    <div class="works-list">
+    <article class="exp-card">
+      <div class="work-label">MGA</div>
+      <a href="works/18-mestergruppen.html" class="card-link">
+        <img src="images/works/18_mestergruppen.png" alt="Mestergruppen Arkitekter projects" />
+      </a>
+      <h2>Mestergruppen Arkitekter AS, Trondheim</h2>
+      <h3>Architect / BIM & Digital Workflow Specialist — 55+ Projects</h3>
+      <p>Architectural design and documentation across Norway — from concept design (skisseprosjekter) to building permit drawings (byggemeldingstegninger). Focus on residential housing, prefab construction, energy simulation, site planning, and municipal coordination.</p>
+      <div class="tag-group">
+        <span>Revit</span>
+        <span>Archicad</span>
+        <span>ACC</span>
+        <span>BIM</span>
+        <span>Sustainability</span>
+        <a href="files/mestergruppen-attest.pdf" target="_blank">View reference letter ↗</a>
+      </div>
+    </article>
+    
+    <article class="exp-card">
+      <div class="work-label">PKA</div>
+      <a href="works/10-nyhavna.html" class="card-link">
+        <img src="images/works/10_nyhavna.png" alt="Øvre Nyhavna" />
+      </a>
+      <h2>Per Knudsen Arkitektkontor AS, Trondheim</h2>
+      <h3>Architect / BIM & Pre-Project Development Øvre Nyhavna</h3>
+      <p>Transformed Per Knudsen's conceptual sketches into precise ArchiCAD digital models for Trondheim's harbour transformation project. Developed layout variations and façade studies; maintained model fidelity and regulatory alignment across iterative design phases.</p>
+      <div class="tag-group">
+        <span>Archicad</span>
+        <span>BIM Designer</span>
+        <span>Pre-project</span>
+        <span>BYA / BTA</span>
+        <span>Layout optimization</span>
+        <span>TEK17</span>
+        <span>TEK10</span>
+      </div>
+    </article>
 
-      <article class="work-item" data-year="2021–2026" data-cat="Architecture / BIM">
-        <div class="work-num">MGA</div>
-        <a href="works/18-mestergruppen.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/18_mestergruppen.png" alt="Mestergruppen Arkitekter projects" class="work-img" loading="lazy" />
-            <span class="work-img-hint">Brisa Silva - Architect at Mestergruppen Arkitekter AS.</span>
-          </a>
-          <div class="work-body">
-          <h3>Mestergruppen Arkitekter AS, Trondheim</h3>
-          <h4>Architect / BIM &amp; Digital Workflow Specialist — 55+ Projects</h4>
-          <p>Architectural design and documentation across Norway — from concept design (skisseprosjekter) to building permit drawings (byggemeldingstegninger). Energy and daylight simulations, site planning, regulatory coordination. Gradually moved toward testing and evaluating digital workflows, BIM data, and internal innovation tools.</p>
-          <div class="work-tags"><span>Revit</span><span>Archicad</span><span>ACC</span><span>BIM</span><span>Sustainability</span></div>
-          <a href="files/mestergruppen-attest.pdf" target="_blank" class="doc-link">View reference letter ↗</a>
-        </div>
-      </article>
-
-      <article class="work-item" data-year="2019–2020" data-cat="Architecture">
-        <div class="work-num">PKA</div>
-        <a href="works/10-nyhavna.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/10_nyhavna.png" alt="Øvre Nyhavna" class="work-img" loading="lazy" />
-            <span class="work-img-hint">Image ©HEM Eiendom / Per Knudsen Arkitektkontor – used for reference only.</span>
-          </a>
-          <div class="work-body">
-          <h3>Per Knudsen Arkitektkontor AS, Trondheim </h3>
-          <h4>Architect (vikariat) / BIM &amp; Pre-Project Development Øvre Nyhavna </h4>
-          <p>Transformed Per Knudsen's conceptual sketches into precise ArchiCAD digital models for Trondheim's historic harbor transformation. Continuously tested design modifications for BTA/BYA compliance, coordinating layout variations and façade studies across multiple design phases.</p>
-          <div class="work-tags"><span>Archicad</span><span>BIM Designer</span><span>Pre-project</span><span>BYA / BTA</span><span>Layout optimization</span><span>TEK17</span><span>TEK10</span></div>
-        </div>
-      </article>
-
-      <article class="work-item" data-year="2013–2014" data-cat="Professional / Competition">
-        <div class="work-num">BKA</div>
-        <a href="works/02-bndes.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/02_bndes.png" alt="BNDES National Competition" class="work-img" loading="lazy" />
-            <span class="work-img-hint">Exterior render by Estúdio MI</span>
-          </a>
-          <div class="work-body">
-          <h3>BNDES — Architectural Competition</h3>
-          <h4>Biselli + Katchborian Arquitetos — 3rd Place Nationally</h4>
-          <p>Contributed architectural and technical drawings for the BNDES Headquarters Annex in Rio de Janeiro. The proposal emphasized transparency, rhythm, and urban presence — with daylight optimization, solar protection, and flexible interior layouts. Working within a large multidisciplinary team strengthened understanding of complex project workflows and documentation standards.</p>
-          <div class="work-tags"><span>Competition</span><span>AutoCAD</span><span>Technical Drawing</span><span>Team Collaboration</span><span>Brazil</span></div>
-        </div>
-      </article>
-
-    </div>
+    <article class="exp-card">
+      <div class="work-label">BKA</div>
+      <a href="works/02-bndes.html" class="card-link">
+        <img src="images/works/02_bndes.png" alt="BNDES National Competition" />
+      </a>
+      <h2>BNDES — Architectural Competition</h2>
+      <h3>Biselli + Katchborian Arquitetos — 3rd Place Nationally</h3>
+      <p>Contributed architectural and technical drawings for the BNDES Headquarters Annex in Rio de Janeiro, Brazil — a national competition where our team ranked 3rd among all submissions.</p>
+      <div class="tag-group">
+        <span>Competition</span>
+        <span>AutoCAD</span>
+        <span>Technical Drawing</span>
+        <span>Team Collaboration</span>
+        <span>Brazil</span>
+      </div>
+    </article>
   </section>
+
   <section id="works">
     <div class="section-label">Selected Works</div>
-    <div class="works-list">
 
-      <article class="work-item" data-year="2021–2026" data-cat="Digital Tools / Automation">
-        <div class="work-num">MGA</div>
-        <a href="works/17-pyrevit.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/17_pyrevit.png" alt="PyRevit Custom Tools" class="work-img" loading="lazy" />
-            <span class="work-img-hint">Prototype testing documentation from professional practice.</span>
-          </a>
-          <div class="work-body">
-          <h3>PyRevit Custom Tools</h3>
-          <h4>Research &amp; Development — Mestergruppen / Pilarr</h4>
-          <p>Prototyped PyRevit tools (AI-assisted) using the Revit API to explore architectural quality control and model visualization. Isolate.Wall.Min.Height isolates walls exceeding a user-defined threshold; the Gesimshøyde & Mønehøyde Dimension Checker flags height discrepancies across views. Built as proof-of-concept, not deployed in production.</p>
-          <div class="work-tags"><span>Python</span><span>PyRevit</span><span>Revit API</span><span>Automation</span></div>
-        </div>
-      </article>
+    <article class="work-card">
+      <div class="work-label">MGA</div>
+      <a href="works/17-pyrevit.html" class="card-link">
+        <img src="images/works/17_pyrevit.png" alt="PyRevit Custom Tools" />
+      </a>
+      <h2>PyRevit Custom Tools</h2>
+      <h3>Research & Development — Mestergruppen / Pilarr</h3>
+      <p>Prototyped PyRevit tools (AI-assisted) using the Revit API to explore architectural quality control automation. Developed dimension validators and model analysis scripts for internal production workflows.</p>
+      <div class="tag-group">
+        <span>Python</span>
+        <span>PyRevit</span>
+        <span>Revit API</span>
+        <span>Automation</span>
+      </div>
+    </article>
 
-      <article class="work-item" data-year="2021–2026" data-cat="ACC / Digital Workflows">
-        <div class="work-num">MGA</div>
-        <a href="works/16-5-acc.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/16-5_acc.png" alt="Autodesk Construction Cloud" class="work-img" loading="lazy" />
-            <span class="work-img-hint">Prototype testing documentation from professional practice.</span>
-          </a>
-          <div class="work-body">
-          <h3>Autodesk Construction Cloud — Adoption &amp; Testing</h3>
-          <h4>Internal Initiative — Mestergruppen Arkitekter</h4>
-          <p>Tested ACC before wider implementation from the architect and end-user perspective. Evaluated model/document workflow, publishing logic, internal review steps, and adoption challenges. Supported colleagues by explaining system logic, common errors, and practical solutions in clear, accessible language.</p>
-          <div class="work-tags"><span>ACC</span><span>BIM Collaboration</span><span>Workflow</span><span>User Adoption</span></div>
-        </div>
-      </article>
+    <article class="work-card">
+      <div class="work-label">MGA</div>
+      <a href="works/16-5-acc.html" class="card-link">
+        <img src="images/works/16-5_acc.png" alt="Autodesk Construction Cloud" />
+      </a>
+      <h2>Autodesk Construction Cloud — Adoption & Testing</h2>
+      <h3>Internal Initiative — Mestergruppen Arkitekter</h3>
+      <p>Tested ACC before wider implementation from the architect and end-user perspective. Evaluated model/data workflows, BIM collaboration patterns, and user adoption barriers. Documented findings for team training and onboarding.</p>
+      <div class="tag-group">
+        <span>ACC</span>
+        <span>BIM Collaboration</span>
+        <span>Workflow</span>
+        <span>User Adoption</span>
+      </div>
+    </article>
 
-      <article class="work-item" data-year="2021–2026" data-cat="AI / Research">
-        <div class="work-num">MGA</div>
-        <a href="works/16-ai-solheim.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/16_ai-solheim.png" alt="Solheim AI Image Classification" class="work-img" loading="lazy" />
-            <span class="work-img-hint">Prototype testing documentation from professional practice.</span>
-          </a>
-          <div class="work-body">
-          <h3>Solheim Image Classification Prototype</h3>
-          <h4>AI Research — Saltdalshytta / Mestergruppen / Pilarr</h4>
-          <p>Investigated AI-driven image recognition for identifying and comparing design variations in Saltdalshytta's cabin series.Prototyped with Convolutional Neural Networks (CNN) in Python (AI-assisted) using Keras, TensorFlow, and OpenCV — producing similarity scores and highlighting discrepancies such as shifted walls, altered windows, and changed room dimensions. Remained at prototype stage.</p>
-          <div class="work-tags"><span>AI / ML</span><span>Python</span><span>TensorFlow</span><span>OpenCV</span><span>CNN</span></div>
-        </div>
-      </article>
+    <article class="work-card">
+      <div class="work-label">MGA</div>
+      <a href="works/16-ai-solheim.html" class="card-link">
+        <img src="images/works/16_ai-solheim.png" alt="Solheim AI Image Classification" />
+      </a>
+      <h2>Solheim Image Classification Prototype</h2>
+      <h3>AI Research — Saltdalshytta / Mestergruppen / Pilarr</h3>
+      <p>Investigated AI-driven image recognition for identifying and comparing design variations in Saltdalshytta cabin series. Built a CNN classifier (AI-assisted Python) to categorize floor plan variations and evaluate design consistency.</p>
+      <div class="tag-group">
+        <span>AI / ML</span>
+        <span>Python</span>
+        <span>TensorFlow</span>
+        <span>OpenCV</span>
+        <span>CNN</span>
+      </div>
+    </article>
 
-      <article class="work-item" data-year="2021–2026" data-cat="BIM / Data">
-        <div class="work-num">MGA</div>
-        <a href="works/15-pilarr.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/15_pilarr.png" alt="Pilarr PPM BIM Integration" class="work-img" loading="lazy" />
-            <span class="work-img-hint">Personal documentation of BIM integration</span>
-          </a>
-          <div class="work-body">
-          <h3>Pilarr PPM — BIM Integration</h3>
-          <h4>Research &amp; Development — Mestergruppen / Pilarr</h4>
-          <p>Structured Revit parameters to connect BIM elements with quantities, tasks, work packages, and scheduling, and explored IFC/openBIM data structures to improve information flow between systems. The research explored how model-based planning could support more predictable resource allocation.</p>
-          <div class="work-tags"><span>BIM</span><span>Revit</span><span>IFC</span><span>PPM</span><span>openBIM</span></div>
-        </div>
-      </article>
+    <article class="work-card">
+      <div class="work-label">MGA</div>
+      <a href="works/15-pilarr.html" class="card-link">
+        <img src="images/works/15_pilarr.png" alt="Pilarr PPM BIM Integration" />
+      </a>
+      <h2>Pilarr PPM — BIM Integration</h2>
+      <h3>Research & Development — Mestergruppen / Pilarr</h3>
+      <p>Structured Revit parameters to connect BIM elements with quantities, tasks, work packages, and production scheduling. Explored IFC/openBIM data structures for information flow between digital systems.</p>
+      <div class="tag-group">
+        <span>BIM</span>
+        <span>Revit</span>
+        <span>IFC</span>
+        <span>PPM</span>
+        <span>openBIM</span>
+      </div>
+    </article>
 
-      <article class="work-item" data-year="2021–2026" data-cat="Research / Configurators">
-        <div class="work-num">MGA</div>
-        <a href="works/14-house-configurators.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/14_cabin-configurators.png" alt="House and Cabin Configurators" class="work-img" loading="lazy" />
-            <span class="work-img-hint">Personal documentation of configurators prototype</span>
-          </a>
-          <div class="work-body">
-          <h3>House &amp; Cabin Configurators</h3>
-          <h4>Research &amp; Prototyping — Mestergruppen / Pilarr</h4>
-          <p>Explored web-based configurators for home design, evaluating 8+ platforms including ShapeDiver, Rhino.Inside.Revit, Innobrix, Spacio, Paralello, Kitconnect. Focused on user responsiveness, interface design, data transfer between design models and web interfaces, and practical limits of automation for housing customization.</p>
-          <div class="work-tags"><span>ShapeDiver</span><span>Grasshopper</span><span>Rhino.Inside</span><span>Innobrix</span><span>Web</span></div>
-        </div>
-      </article>
+    <article class="work-card">
+      <div class="work-label">MGA</div>
+      <a href="works/14-house-configurators.html" class="card-link">
+        <img src="images/works/14_house-configurators.png" alt="House and Cabin Configurators" />
+      </a>
+      <h2>House & Cabin Configurators</h2>
+      <h3>Research & Prototyping — Mestergruppen / Pilarr</h3>
+      <p>Explored web-based configurators for home design, evaluating 8+ platforms including ShapeDiver, Rhino.Inside.Revit, Innobrix, PlacePoint, Paralello, KitConnect, and Spacio. Built three live parametric configurator prototypes in ShapeDiver.</p>
+      <div class="tag-group">
+        <span>ShapeDiver</span>
+        <span>Grasshopper</span>
+        <span>Rhino.Inside</span>
+        <span>Innobrix</span>
+        <span>Web</span>
+      </div>
+    </article>
 
-      <article class="work-item" data-year="2021–2026" data-cat="Sustainability">
-        <div class="work-num">MGA</div>
-        <a href="works/13-lca.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/13_lca.png" alt="LCA Workflow Development" class="work-img" loading="lazy" />
-            <span class="work-img-hint">Personal documentation of LCA workflows</span>
-          </a>
-          <div class="work-body">
-          <h3>LCA Workflow Development</h3>
-          <h4>Internal Research — Mestergruppen Arkitekter</h4>
-          <p>Compared Excel, Revit-plugin, and Grasshopper-based data-extraction routes for LCA reporting, and built an Excel-based workflow linking material data with EPDs and One Click LCA import formats — identifying materials, flagging missing entries, and supporting early-stage carbon assessments.</p>
-          <div class="work-tags"><span>LCA</span><span>OneClick LCA</span><span>EPD</span><span>Excel</span><span>Carbon</span></div>
-        </div>
-      </article>
+    <article class="work-card">
+      <div class="work-label">MGA</div>
+      <a href="works/13-lca.html" class="card-link">
+        <img src="images/works/13_lca.png" alt="LCA Workflow Development" />
+      </a>
+      <h2>LCA Workflow Development</h2>
+      <h3>Internal Research — Mestergruppen Arkitekter</h3>
+      <p>Compared Excel, Revit-plugin, and Grasshopper-based data-extraction routes for LCA reporting, and built structured material and EPD databases for One Click LCA import formats.</p>
+      <div class="tag-group">
+        <span>LCA</span>
+        <span>OneClick LCA</span>
+        <span>EPD</span>
+        <span>Excel</span>
+        <span>Carbon</span>
+      </div>
+    </article>
 
-      <article class="work-item" data-year="2021–2026" data-cat="Research / Configurators">
-        <div class="work-num">MGA</div>
-        <a href="works/12-apartment.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/12_apartment.png" alt="Apartment Configurator" class="work-img" loading="lazy" />
-            <span class="work-img-hint"> Personal documentation of apartment configurator prototype </span>
-          </a>
-          <div class="work-body">
-          <h3>Apartment Configurator</h3>
-          <h4>Research &amp; Development — Mestergruppen AS</h4>
-          <p>Investigated tools to help developers optimize apartment mixes considering market demand, spatial efficiency, BYA constraints, and optional garage inclusion.</p>
-          <div class="work-tags"><span>Parametric</span><span>PlacePoint</span><span>Miroboard</span><span>Rhino.Inside</span><span>ShapeDiver</span><span>Parallelo</span><span>KitConnect</span><span>Spacio</span><span>PlacePoint</span><span>Innobrix</span></div>
-        </div>
-      </article>
+    <article class="work-card">
+      <div class="work-label">MGA</div>
+      <a href="works/12-apartment.html" class="card-link">
+        <img src="images/works/12_apartment.png" alt="Apartment Configurator" />
+      </a>
+      <h2>Apartment Configurator</h2>
+      <h3>Research & Development — Mestergruppen AS</h3>
+      <p>Investigated tools to help developers optimize apartment mixes considering market demand, spatial efficiency, and project constraints. Prototyped with PlacePoint, Rhino.Inside, and ShapeDiver.</p>
+      <div class="tag-group">
+        <span>Parametric</span>
+        <span>PlacePoint</span>
+        <span>Miroboard</span>
+        <span>Rhino.Inside</span>
+        <span>ShapeDiver</span>
+        <span>Parallelo</span>
+        <span>KitConnect</span>
+        <span>Spacio</span>
+        <span>PlacePoint</span>
+        <span>Innobrix</span>
+      </div>
+    </article>
 
-      <article class="work-item" data-year="2021–2026" data-cat="Mixed Reality">
-        <div class="work-num">MGA</div>
-        <a href="works/11-fologram.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/11_fologram.png" alt="Fologram Augmented Vision Workshop" class="work-img" loading="lazy" />
-            <span class="work-img-hint">Personal register of Fologram workshop - MR with Microsoft HoloLens2.</span>
-          </a>
-          <div class="work-body">
-          <h3>Fologram Augmented Vision Workshop</h3>
-          <h4>McNeel Europe — Barcelona, Sept 2022 · 24 hours</h4>
-          <p>Workshop exploring how mixed reality links digital design with physical fabrication. Fabricated a full-scale paper strip sculpture using holographic overlays as assembly guides, operating two HoloLens 2 headsets with unique color-coded holograms. Gained insight into real-time model-construction interoperability and MR's potential for error-conscious architectural practice.</p>
-          <div class="work-tags"><span>Fologram</span><span>Microsoft HoloLens 2</span><span>Rhinoceros</span><span>Grasshopper</span><span>Mixed Reality</span></div>
-        </div>
-      </article>
-
-    </div>
+    <article class="work-card">
+      <div class="work-label">MGA</div>
+      <a href="works/11-fologram.html" class="card-link">
+        <img src="images/works/11_fologram.png" alt="Fologram Augmented Vision Workshop" />
+      </a>
+      <h2>Fologram Augmented Vision Workshop</h2>
+      <h3>McNeel Europe — Barcelona, Sept 2022 · 24 hours</h3>
+      <p>Workshop exploring how mixed reality links digital design with physical fabrication. Fabricated a full-scale timber mock-up using Rhino, Grasshopper, and HoloLens 2 real-time guidance.</p>
+      <div class="tag-group">
+        <span>Fologram</span>
+        <span>Microsoft HoloLens 2</span>
+        <span>Rhinoceros</span>
+        <span>Grasshopper</span>
+        <span>Mixed Reality</span>
+      </div>
+    </article>
   </section>
-<!-- Academics -->
+
   <section id="academic">
     <div class="section-label">Academic</div>
-    <div class="works-list">
-    
-      <article class="work-item" data-year="2016–2018" data-cat="Academic / Thesis">
-        <div class="work-num">NTNU</div>
-        <a href="works/09-thesis.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/09_thesis.png" alt="LCA and Adaptability Thesis" class="work-img" loading="lazy" />
-            <span class="work-img-hint">Master's thesis project [Grasshopper, Ladybug Tools, Honeybee]</span>
-          </a>
-          <div class="work-body">
-          <h3>LCA and Adaptability Studies</h3>
-          <h4>Master's Thesis — NTNU, Trondheim</h4>
-          <p>A Master’s thesis project exploring how parametric environmental simulations can guide adaptable housing design for Nordic climates. I used Grasshopper, Ladybug Tools, and Human-Centered Facade Simulation to evaluate daylight, solar gains, views, and natural ventilation, while the broader project integrated LCA to assess environmental impact.</p>
-          <div class="work-tags"><span>LCA</span><span>Ladybug</span><span>Honeybee</span><span>Grasshopper</span><span>Rhinoceros</span><span>Photoshop</span><span>Illustrator</span><span>Dashboard</span><span>SketchUp</span><span>Interdisciplinary</span><span>International collaboration</span></div>
-        </div>
-      </article>
+    <article class="work-card">
+      <div class="work-label">NTNU</div>
+      <a href="works/09-thesis.html" class="card-link">
+        <img src="images/works/09_thesis.png" alt="LCA and Adaptability Thesis" />
+      </a>
+      <h2>LCA and Adaptability Studies</h2>
+      <h3>Master's Thesis — NTNU, Trondheim</h3>
+      <p>A Master's thesis project exploring how parametric environmental simulations can guide adaptable housing design. Used Grasshopper, Ladybug, and Honeybee for integrated energy and LCA workflows.</p>
+      <div class="tag-group">
+        <span>LCA</span>
+        <span>Ladybug</span>
+        <span>Honeybee</span>
+        <span>Grasshopper</span>
+        <span>Rhinoceros</span>
+        <span>Photoshop</span>
+        <span>Illustrator</span>
+        <span>Dashboard</span>
+        <span>SketchUp</span>
+        <span>Interdisciplinary</span>
+        <span>International collaboration</span>
+      </div>
+    </article>
 
-      <article class="work-item" data-year="2016–2018" data-cat="Academic">
-        <div class="work-num">NTNU</div>
-        <a href="works/08-senja.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/08_senja.png" alt="Senja ZEB Flexibility Lab" class="work-img" loading="lazy" />
-            <span class="work-img-hint">Project exterior render [SketchUP, V-Ray and Photoshop]</span>
-          </a>
-          <div class="work-body">
-          <h3>Senja — Integrated Energy Design</h3>
-          <h4>ZEB Flexibility Lab — NTNU</h4>
-          <p>Academic group project completed during my Master’s studies, developing a zero-emission building targeting the ZEB-COM standard through iterative energy simulation. The project integrated a high-performance thermal envelope, hybrid ventilation, a geothermal heat pump, and photovoltaic facade panels. My role included site analysis, architectural concept development, spatial organization, 3D modeling, and renderings.
-</p>
-          <div class="work-tags"><span>ZEB</span><span>Energy Simulation</span><span>Passive Design</span><span>PV</span><span>Interdisciplinary</span><span>International collaboration</span></div>
-        </div>
-      </article>
+    <article class="work-card">
+      <div class="work-label">NTNU</div>
+      <a href="works/08-senja.html" class="card-link">
+        <img src="images/works/08_senja.png" alt="Senja ZEB Flexibility Lab" />
+      </a>
+      <h2>Senja — Integrated Energy Design</h2>
+      <h3>ZEB Flexibility Lab — NTNU</h3>
+      <p>Academic group project completed during my Master's studies, developing a zero-emission building targeting net-zero carbon through integrated passive design and on-site renewable generation.</p>
+      <div class="tag-group">
+        <span>ZEB</span>
+        <span>Energy Simulation</span>
+        <span>Passive Design</span>
+        <span>Interdisciplinary</span>
+        <span>International collaboration</span>
+      </div>
+    </article>
 
-      <article class="work-item" data-year="2016–2018" data-cat="Academic">
-        <div class="work-num">NTNU</div>
-        <a href="works/07-natural-history.html" class="work-image-wrap" aria-label="View project details">
-            <img src="images/works/07_natural-history.png" alt="Natural History and Science Center" class="work-img" loading="lazy" />
-            <span class="work-img-hint">Natural History museum [Martin Boullay and Nikolaj Petersen]</span>
-          </a>
-          <div class="work-body">
-          <h3>Natural History &amp; Science Center</h3>
-          <h4>NTNU Vitenskapsmuseet — Kalvskinnet, Trondheim</h4>
-          <p>Proposed a museum extension embodying NTNU's Zero Emission Neighbourhood ambitions. Combined exhibition spaces, laboratories, collection storage, and a 3D cinema — reinterpreting existing heritage structures through sustainable adaptive reuse while creating accessible public spaces.</p>
-          <div class="work-tags"><span>ZEN</span><span>Cultural Heritage</span><span>Low-impact materials</span><span>Emissions</span><span>Interdisciplinary</span><span>International collaboration</span></div>
-        </div>
-      </article>
-
-    </div>
+    <article class="work-card">
+      <div class="work-label">NTNU</div>
+      <a href="works/07-natural-history.html" class="card-link">
+        <img src="images/works/07_natural-history.png" alt="Natural History and Science Center" />
+      </a>
+      <h2>Natural History & Science Center</h2>
+      <h3>NTNU Vitenskapsmuseet — Kalvskinnet, Trondheim</h3>
+      <p>Proposed a museum extension embodying NTNU's Zero Emission Neighbourhood ambitions. Combined exhibition design with sustainable material strategies and cultural heritage sensitivity.</p>
+      <div class="tag-group">
+        <span>ZEN</span>
+        <span>Cultural Heritage</span>
+        <span>Low-impact materials</span>
+        <span>Emissions</span>
+        <span>Interdisciplinary</span>
+        <span>International collaboration</span>
+      </div>
+    </article>
   </section>
 
-  <!-- PROTOTYPES -->
   <section id="prototypes">
     <div class="section-label">Interactive Prototypes</div>
-    <p class="prototypes-intro">Parametric configurator prototypes built with Grasshopper, Rhino.Inside, and ShapeDiver — running live in the browser. Click any card to open the model on ShapeDiver.</p>
-    <div class="prototypes-grid">
-
-      <a class="prototype-card"
-         href="https://www.shapediver.com/app/builder/v1/main/latest/?slug=shapediver-test-68&redirect=0"
-         target="_blank" rel="noopener">
-        <div class="proto-thumb-wrap">
-          <img src="images/prototypes/proto-01-house.png" alt="House Configurator preview" class="proto-thumb" loading="lazy" />
-          <div class="proto-play"></div>
-        </div>
-        <div class="proto-info">
-          <div class="proto-number-sm">01</div>
-          <h3>House Configurator Test</h3>
-          <p>Early prototype exploring real-time parametric apartment configuration in the browser via ShapeDiver and Grasshopper. Parameter sliders, test constraints, and geometry update response.</p>
-          <div class="proto-tags"><span>ShapeDiver</span><span>Grasshopper</span><span>Configurator</span></div>
-          <span class="proto-launch">Open in ShapeDiver ↗</span>
-        </div>
-      </a>
-
-      <a class="prototype-card"
-         href="https://www.shapediver.com/app/builder/v1/main/latest/?slug=nordnes-saltak-a-b-c&redirect=0"
-         target="_blank" rel="noopener">
-        <div class="proto-thumb-wrap">
-          <img src="images/prototypes/proto-02-nordnes.png" alt="Nordnes Saltak preview" class="proto-thumb" loading="lazy" />
-          <div class="proto-play"></div>
-        </div>
-        <div class="proto-info">
-          <div class="proto-number-sm">02</div>
-          <h3>Nordnes Saltak — Roof Variants A/B/C</h3>
-          <p>Parametric cabin roof model with configurable variants. Explores facade typology, isolate variant types, and assign PV panels.</p>
-          <div class="proto-tags"><span>ShapeDiver</span><span>Cabin Design</span><span>Prefab</span><span>Grasshopper</span></div>
-          <span class="proto-launch">Open in ShapeDiver ↗</span>
-        </div>
-      </a>
-
-      <a class="prototype-card"
-         href="https://www.shapediver.com/app/builder/v1/main/latest/?slug=110-solheim&redirect=0"
-         target="_blank" rel="noopener">
-        <div class="proto-thumb-wrap">
-          <img src="images/prototypes/proto-03-solheim.png" alt="Solheim 110 preview" class="proto-thumb" loading="lazy" />
-          <div class="proto-play"></div>
-        </div>
-        <div class="proto-info">
-          <div class="proto-number-sm">03</div>
-          <h3>Solheim 110 — Unit Configurator</h3>
-          <p>Web-based configurator prototype for the Solheim cabin series (110m²). Allows interactive exploration of layout options.</p>
-          <div class="proto-tags"><span>ShapeDiver</span><span>Cabin</span><span>Saltdalshytta</span><span>Layout</span></div>
-          <span class="proto-launch">Open in ShapeDiver ↗</span>
-        </div>
-      </a>
-
-    </div>
-    <div class="prototypes-note">
-      <span>↳</span>
-      <span>Live ShapeDiver models built as part of R&amp;D at Mestergruppen / Pilarr. Opens in a new tab — requires a modern browser with WebGL.</span>
-    </div>
+    <p>Parametric configurator prototypes built with Grasshopper, Rhino.Inside, and ShapeDiver — running live online.</p>
+    
+    <a href="https://www.shapediver.com/app/builder/v1/main/latest/?slug=shapediver-test-68&redirect=0" class="prototype-card">
+      <img src="images/prototypes/proto-01-house.png" alt="House Configurator preview" />
+      <h3>House Configurator Test</h3>
+      <p>Early prototype exploring real-time parametric apartment configuration in the browser via ShapeDiver, Grasshopper, and Rhino.Inside.Revit parametrics.</p>
+      <div class="tag-group">
+        <span>ShapeDiver</span>
+        <span>Grasshopper</span>
+        <span>Configurator</span>
+        <span>Open in ShapeDiver ↗</span>
+      </div>
+    </a>
+    
+    <a href="https://www.shapediver.com/app/builder/v1/main/latest/?slug=nordnes-saltak-a-b-c&redirect=0" class="prototype-card">
+      <img src="images/prototypes/proto-02-nordnes.png" alt="Nordnes Saltak preview" />
+      <h3>Nordnes Saltak — Roof Variants A/B/C</h3>
+      <p>Parametric cabin roof model with configurable variants. Explores facade typology, isolate variant types, and cost variations for prefab manufacturing.</p>
+      <div class="tag-group">
+        <span>ShapeDiver</span>
+        <span>Cabin Design</span>
+        <span>Prefab</span>
+        <span>Grasshopper</span>
+        <span>Open in ShapeDiver ↗</span>
+      </div>
+    </a>
+    
+    <a href="https://www.shapediver.com/app/builder/v1/main/latest/?slug=110-solheim&redirect=0" class="prototype-card">
+      <img src="images/prototypes/proto-03-solheim.png" alt="Solheim 110 preview" />
+      <h3>Solheim 110 — Unit Configurator</h3>
+      <p>Web-based configurator prototype for the Solheim cabin series (110m²). Allows interactive exploration of layout options, material choices, and cost estimates in real time.</p>
+      <div class="tag-group">
+        <span>ShapeDiver</span>
+        <span>Cabin</span>
+        <span>Saltdalshytta</span>
+        <span>Layout</span>
+        <span>Open in ShapeDiver ↗</span>
+      </div>
+    </a>
+    <p><em>Live ShapeDiver models built as part of R&D at Mestergruppen / Pilarr. Opens in a new tab — requires Grasshopper to edit.</em></p>
   </section>
 
-  <!-- SKILLS -->
   <section id="skills">
-    <div class="section-label">Skills &amp; Tools</div>
-    <div class="skills-grid">
-      <div class="skill-col">
-        <h3>Architecture &amp; AEC Practice</h3>
-        <ul>
-          <li>Housing, cabins, prefab construction</li>
-          <li>Concept design to permit drawings</li>
-          <li>Energy &amp; daylight simulation</li>
-          <li>Site planning &amp; regulatory coordination</li>
-          <li>TEK17 compliance</li>
-        </ul>
-      </div>
-      <div class="skill-col">
-        <h3>BIM &amp; Digital Workflows</h3>
-        <ul>
-          <li>Revit, Archicad, AutoCAD</li>
-          <li>Autodesk Construction Cloud (ACC)</li>
-          <li>IFC / openBIM data structures</li>
-          <li>BIM model parameters &amp; data flow</li>
-          <li>Workflow mapping &amp; user adoption</li>
-        </ul>
-      </div>
-      <div class="skill-col">
-        <h3>Automation &amp; Computational</h3>
-        <ul>
-          <li>Python / PyRevit scripting</li>
-          <li>Rhino.Inside.Revit &amp; Grasshopper</li>
-          <li>ShapeDiver, Dynamo basics</li>
-          <li>AI/ML: Keras, TensorFlow, OpenCV</li>
-          <li>React / JavaScript · HTML · CSS</li>
-          <li>GitHub, VS Code</li>
-        </ul>
-      </div>
-      <div class="skill-col">
-        <h3>Sustainability &amp; Data</h3>
-        <ul>
-          <li>Life Cycle Assessment (LCA)</li>
-          <li>OneClick LCA, EPD databases</li>
-          <li>Ladybug / Honeybee tools</li>
-          <li>Excel-based data structures</li>
-          <li>Environmental documentation</li>
-        </ul>
-      </div>
-      <div class="skill-col">
-        <h3>Technology Evaluation</h3>
-        <ul>
-          <li>Software testing &amp; usability review</li>
-          <li>Configurator &amp; platform assessment</li>
-          <li>Integration potential analysis</li>
-          <li>User feedback &amp; adoption support</li>
-          <li>Miro, Figma, Teams, PowerPoint</li>
-        </ul>
-      </div>
-      <div class="skill-col">
-        <h3>Communication</h3>
-        <ul>
-          <li>Interdisciplinary teamwork (NO + BR)</li>
-          <li>Process mapping &amp; visual storytelling</li>
-          <li>Technical documentation</li>
-          <li>International vendor meetings</li>
-          <li>Colleague training &amp; support</li>
-        </ul>
-      </div>
-    </div>
+    <div class="section-label">Skills & Tools</div>
 
-    <!-- CERTIFICATIONS -->
-     <section id="certifications"><div class="certifications">
-      <h3>Certifications &amp; Courses</h3>
-      <div class="cert-list">
+    <h3>Architecture & AEC Practice</h3>
+    <ul>
+      <li>Housing, cabins, prefab construction</li>
+      <li>Concept design to permit drawings</li>
+      <li>Energy & daylight simulation</li>
+      <li>Site planning & regulatory coordination</li>
+      <li>TEK17 compliance</li>
+    </ul>
 
-        <a href="files/certificates/fologram-augmented-vision.pdf" target="_blank" class="cert-btn">
-          <span class="cert-icon">↗</span>
-          Fologram Augmented Vision Workshop
-          <span class="cert-meta">McNeel Europe · 2022 · 24h</span>
-        </a>
+    <h3>BIM & Digital Workflows</h3>
+    <ul>
+      <li>Revit, Archicad, AutoCAD</li>
+      <li>Autodesk Construction Cloud (ACC)</li>
+      <li>IFC / openBIM data structures</li>
+      <li>BIM model parameters & data flow</li>
+      <li>Workflow mapping & user adoption</li>
+    </ul>
 
-        <a href="files/certificates/design-parametric-fabrication.pdf" target="_blank" class="cert-btn">
-          <span class="cert-icon">↗</span>
-          Design &amp; Parametric Fabrication
-          <span class="cert-meta">Controlmad · 2022 · 72h · Rhinoceros &amp; Grasshopper</span>
-        </a>
+    <h3>Automation & Computational</h3>
+    <ul>
+      <li>Python / PyRevit scripting</li>
+      <li>Rhino.Inside.Revit & Grasshopper</li>
+      <li>ShapeDiver, Dynamo basics</li>
+      <li>AI/ML: Keras, TensorFlow, OpenCV</li>
+      <li>React / JavaScript · HTML · CSS</li>
+      <li>GitHub, VS Code</li>
+    </ul>
 
-        <a href="files/certificates/rhino-inside-revit.pdf" target="_blank" class="cert-btn">
-          <span class="cert-icon">↗</span>
-          Rhino.Inside.Revit Essentials
-          <span class="cert-meta">Simply Rhino · Oct 2022</span>
-        </a>
+    <h3>Sustainability & Data</h3>
+    <ul>
+      <li>Life Cycle Assessment (LCA)</li>
+      <li>OneClick LCA, EPD databases</li>
+      <li>Ladybug / Honeybee tools</li>
+      <li>Excel-based data structures</li>
+      <li>Environmental documentation</li>
+    </ul>
 
-        <a href="files/certificates/ladybug-tools.pdf" target="_blank" class="cert-btn">
-          <span class="cert-icon">↗</span>
-          Ladybug Tools — Parametric Environmental Design
-          <span class="cert-meta">McNeel Europe · 2022 · 18h</span>
-        </a>
+    <h3>Technology Evaluation</h3>
+    <ul>
+      <li>Software testing & usability review</li>
+      <li>Configurator & platform assessment</li>
+      <li>Integration potential analysis</li>
+      <li>User feedback & adoption support</li>
+      <li>Miro, Figma, Teams, PowerPoint</li>
+    </ul>
 
-        <a href="files/certificates/innobrix-icps.pdf" target="_blank" class="cert-btn">
-          <span class="cert-icon">↗</span>
-          Innobrix ICPS — Certified Product Specialist
-          <span class="cert-meta">Innobrix · Feb 2023</span>
-        </a>
+    <h3>Communication</h3>
+    <ul>
+      <li>Interdisciplinary teamwork (NO + BR)</li>
+      <li>Process mapping & visual storytelling</li>
+      <li>Technical documentation</li>
+      <li>International vendor meetings</li>
+      <li>Colleague training & support</li>
+    </ul>
+  </section>
 
-        <a href="files/certificates/lca-onboarding.pdf" target="_blank" class="cert-btn">
-          <span class="cert-icon">↗</span>
-          Building Life-Cycle Assessment Onboarding
-          <span class="cert-meta">OneClick LCA · Jan 2023 · 3h</span>
-        </a>
+  <section id="certifications">
+    <div class="section-label">Certifications & Courses</div>
+    <ul class="cert-list">
+      <li>
+        <a href="files/certificates/fologram-augmented-vision.pdf" target="_blank">Fologram Augmented Vision Workshop</a>
+        <em>McNeel Europe · 2022 · 24h</em>
+      </li>
+      <li>
+        <a href="files/certificates/design-parametric-fabrication.pdf" target="_blank">Design & Parametric Fabrication</a>
+        <em>Controlmad · 2022 · 72h · Rhinoceros & Grasshopper</em>
+      </li>
+      <li>
+        <a href="files/certificates/rhino-inside-revit.pdf" target="_blank">Rhino.Inside.Revit Essentials</a>
+        <em>Simply Rhino · Oct 2022</em>
+      </li>
+      <li>
+        <a href="files/certificates/ladybug-tools.pdf" target="_blank">Ladybug Tools — Parametric Environmental Design</a>
+        <em>McNeel Europe · 2022 · 18h</em>
+      </li>
+      <li>
+        <a href="files/certificates/innobrix-icps.pdf" target="_blank">Innobrix ICPS — Certified Product Specialist</a>
+        <em>Innobrix · Feb 2023</em>
+      </li>
+      <li>
+        <a href="files/certificates/lca-onboarding.pdf" target="_blank">Building Life-Cycle Assessment Onboarding</a>
+        <em>OneClick LCA · Jan 2023 · 3h</em>
+      </li>
+      <li>
+        <a href="files/certificates/shecodes-react.png" target="_blank">SheCodes React Add-On — Advanced React Development</a>
+        <em>SheCodes · Jun 2021</em>
+      </li>
+      <li>
+        <a href="files/certificates/shecodes-responsive.png" target="_blank">SheCodes Responsive — Responsive Web Development</a>
+        <em>SheCodes · Apr 2021</em>
+      </li>
+      <li>
+        <a href="files/certificates/shecodes-plus.png" target="_blank">SheCodes Plus — Web Development</a>
+        <em>SheCodes · Apr 2021</em>
+      </li>
+      <li>
+        <a href="files/certificates/shecodes-basics.png" target="_blank">SheCodes Basics — Introduction to Coding</a>
+        <em>SheCodes · Mar 2021 · HTML, CSS, JavaScript</em>
+      </li>
+      <li>
+        <a href="files/certificates/ntnu-diploma.pdf" target="_blank">M.Sc. Sustainable Architecture</a>
+        <em>NTNU · July 2018 · 120 ECTS</em>
+      </li>
+      <li>
+        <a href="files/certificates/belas-artes-diploma-1.pdf" target="_blank">B.Arch Architecture & Urbanism</a>
+        <em>Belas Artes de São Paulo · 2014 (Scholarship)</em>
+      </li>
+    </ul>
+  </section>
 
-        <a href="files/certificates/shecodes-react.png" target="_blank" class="cert-btn">
-          <span class="cert-icon">↗</span>
-          SheCodes React Add-On — Advanced React Development
-          <span class="cert-meta">SheCodes · Jun 2021</span>
-        </a>
-
-        <a href="files/certificates/shecodes-responsive.png" target="_blank" class="cert-btn">
-          <span class="cert-icon">↗</span>
-          SheCodes Responsive — Responsive Web Development
-          <span class="cert-meta">SheCodes · Apr 2021</span>
-        </a>
-
-        <a href="files/certificates/shecodes-plus.png" target="_blank" class="cert-btn">
-          <span class="cert-icon">↗</span>
-          SheCodes Plus — Web Development
-          <span class="cert-meta">SheCodes · Apr 2021</span>
-        </a>
-
-        <a href="files/certificates/shecodes-basics.png" target="_blank" class="cert-btn">
-          <span class="cert-icon">↗</span>
-          SheCodes Basics — Introduction to Coding
-          <span class="cert-meta">SheCodes · Mar 2021 · HTML, CSS, JavaScript</span>
-        </a>
-
-        <a href="files/certificates/ntnu-diploma.pdf" target="_blank" class="cert-btn">
-          <span class="cert-icon">↗</span>
-          M.Sc. Sustainable Architecture
-          <span class="cert-meta">NTNU · July 2018 · 120 ECTS</span>
-        </a>
-
-        <a href="files/certificates/belas-artes-diploma-1.pdf" target="_blank" class="cert-btn">
-          <span class="cert-icon">↗</span>
-          B.Arch Architecture &amp; Urbanism
-          <span class="cert-meta">Belas Artes de São Paulo · 2014 (Scholarship)</span>
-        </a>
-
-      </div>
-    </div>
-</section>
-      </section>
-
-  <!-- CONTACT -->
   <section id="contact">
     <div class="section-label">Contact</div>
-    <div class="contact-grid">
-      <div class="contact-text">
-        <h2>Ready<br><em>for the next challenge.</em></h2>
-        <p>I bring architectural expertise, hands-on software testing and prototyping, and structured problem-solving to solutions, product, and implementation roles in AEC tech.</p>
-      </div>
-      <div class="contact-links">
-        <a href="mailto:brisa.olisilva@gmail.com" class="contact-item">
-          <span class="contact-icon">✉</span>
-          <span>brisa.olisilva@gmail.com</span>
-        </a>
-                <a href="https://www.linkedin.com/in/brisasilva" target="_blank" rel="noopener" class="contact-item">
-          <span class="contact-icon">↗</span>
-          <span>linkedin.com/in/brisasilva</span>
-        </a>
-        <a href="https://brisa-silva.netlify.app" target="_blank" rel="noopener" class="contact-item">
-          <span class="contact-icon">↗</span>
-          <span>brisa-silva.netlify.app</span>
-        </a>
-              </div>
-    </div>
+    <h2>Ready to explore <br/>what's next.</h2>
+    <p>I bring architectural expertise, hands-on software testing and prototyping, and structured problem-solving. Looking for Design Technologist, BIM Specialist, or Digital Workflow Specialist roles in AEC — companies building software for architects and builders.</p>
+    <ul class="contact-links">
+      <li><a href="mailto:brisa.olisilva@gmail.com">brisa.olisilva@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/brisasilva" target="_blank">linkedin.com/in/brisasilva</a></li>
+      <li><a href="https://brisa-silva.netlify.app" target="_blank">brisa-silva.netlify.app</a></li>
+    </ul>
   </section>
 
   <footer>
-    <span>© 2026 Brisa O. Silva</span>
-    <span>Architect · BIM &amp; Digital Workflow Specialist · Trondheim</span>
+    <p>© 2026 Brisa O. Silva</p>
+    <p>Architect · BIM & Digital Workflow Specialist · Trondheim</p>
   </footer>
 
+  <button class="back-to-top">Back to top</button>
   <script src="js/main.js"></script>
-
-  <!-- Back to Top -->
- <button class="back-to-top" id="btt" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-  <script>
-    window.addEventListener('scroll', () => {
-      document.getElementById('btt').classList.toggle('visible', window.scrollY > 300);
-    }, {passive: true});
-  </script>
 </body>
 </html>
