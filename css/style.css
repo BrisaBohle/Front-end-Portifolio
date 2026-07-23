@@ -206,24 +206,24 @@ body::after {
   z-index: 0;
   background-color: var(--espresso);
   background-image:
-    linear-gradient(180deg, rgba(23,17,13,0.72) 0%, rgba(23,17,13,0.82) 55%, var(--espresso) 100%),
-    linear-gradient(115deg, rgba(208,122,78,0.30), rgba(23,17,13,0.3) 55%),
-    radial-gradient(70% 60% at 50% 38%, rgba(231,168,103,0.15), transparent 70%),
+    linear-gradient(180deg, rgba(23,17,13,0.48) 0%, rgba(23,17,13,0.64) 55%, var(--espresso) 100%),
+    linear-gradient(115deg, rgba(208,122,78,0.26), rgba(23,17,13,0.26) 55%),
+    radial-gradient(70% 60% at 50% 38%, rgba(231,168,103,0.16), transparent 70%),
     url("images/works/11_fologra_hero.png");
   background-size: cover, cover, cover, cover;
   background-position: center, center, center, center 30%;
   background-repeat: no-repeat;
   background-blend-mode: normal, multiply, screen, normal;
-  filter: saturate(1.03) contrast(1.03) brightness(0.72);
+  filter: saturate(1.05) contrast(1.03) brightness(0.85);
 }
-/* darker vignette — deep corners to seat text */
+/* vignette — dark corners to seat text, photo still visible */
 .hero-media::after {
   content: '';
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(115% 80% at 50% 42%, transparent 30%, rgba(11,8,6,0.92) 100%),
-    radial-gradient(70% 55% at 50% 50%, transparent 55%, rgba(11,8,6,0.5) 100%);
+    radial-gradient(118% 82% at 50% 42%, transparent 42%, rgba(11,8,6,0.82) 100%),
+    radial-gradient(72% 58% at 50% 50%, transparent 62%, rgba(11,8,6,0.35) 100%);
 }
 
 .hero-inner {
